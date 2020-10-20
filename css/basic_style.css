@@ -8,7 +8,6 @@ h1 {
 	text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
 }
 
-
 .container {
 	width: 450px;
 	height: 450px;
@@ -23,8 +22,8 @@ h1 {
 --------------------------------------------------------------------- */
 
 
-.container .squares:nth-child(-n+4){
-	background image: url("../images/icons/smileyface2.png")
+.container .squares:nth-child(-n+4) {
+	background image: url ("../images/icons/smileyface2.png")
 	color: #fff;
 	float: left;
 	width: 100px;
@@ -38,8 +37,8 @@ h1 {
 		SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY
 --------------------------------------------------------*/
 
-,squares:nth-child(-n+4) p{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.squares:nth-child(-n+4) p{
+	font-family: "Helvetica Neue";
 	font-size: 1.5em;
 	font-weight: 900;
 	text-align: center;
