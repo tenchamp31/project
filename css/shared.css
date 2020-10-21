@@ -179,3 +179,17 @@ section {
     border: 1px dotted #fff;
     padding: 5px;
 }
+
+/*---------------------------------------====
+    Contact STYLES
+============================================*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(100,65,0,.3);
+}
