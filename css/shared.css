@@ -112,7 +112,7 @@ section {
 .navbar:after {
     clear: both;
     display: table;
-    content: " "
+    content: " ";
 }
 
 .wrap {
@@ -120,6 +120,9 @@ section {
     width: 100%;
     position: absolute;
     overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
 }
 
 .menu-container {
@@ -128,13 +131,13 @@ section {
     content: " ";
     width: 100%;
     position: fixed;
+    z-index: 100;
 }
 
 
 /*-------------------------------------------
     HOME SECTION STYLES
 --------------------------------------------*/
-
 #home {
     background: url(../images/planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
@@ -151,7 +154,7 @@ section {
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0,0,0, 0.5);
+    text-shadow: 2px 4px 5px rgba(0,0,0, 0.9);
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt;
@@ -200,12 +203,12 @@ section {
 }
 
 .reservation {
-    width: 60;
+    width: 60%;
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,.3);
-    box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5)
+    box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 .reservation h2 {
@@ -257,7 +260,7 @@ section {
     outline: none;
     font-weight: 600;
     color: #8D8E6F;
-    padding: 2% 2% 2% 7%;
+    padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #09DB0D;
     border-right: 2px solid #424549;
@@ -283,13 +286,10 @@ section {
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
-    color: #0000;
+    color: #000;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    position: relative;
-    display: inline;
-    float: right;
 }
 
 .terms:hover {
